@@ -1,0 +1,14 @@
+.c-item {
+    height: 600px;
+}
+
+.c-img {
+    /* ask how to make image fit on desktop screen resolution */
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.btn-link {
+    color: #fff;
+}
