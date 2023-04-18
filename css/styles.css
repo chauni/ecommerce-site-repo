@@ -11,4 +11,9 @@
 
 .btn-link {
     color: #fff;
+    text-decoration: none;
+}
+
+[data-bs-theme="green"] {
+    --nav-pills: var(--bs-white);
 }
