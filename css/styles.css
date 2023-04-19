@@ -23,4 +23,11 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
+padding: 20px;
+}
+
+main.signup-login {
+    background-image: url(../images/nubook-fullbg-cottonbro-studio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
