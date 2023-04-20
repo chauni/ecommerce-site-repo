@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <title>NuBook - Find a new book!</title>
-    <link rel="stylesheet" href="./css/styles.css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -11,6 +10,7 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <div class="container">
@@ -101,6 +101,19 @@
             </svg>
           </a>
         </div>
+        <nav class="nav-searchbar col-12 pt-4">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search by Title, Author, Keyword  or ISBN"
+                aria-label="Search"
+              />
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
       </header>
     </div>
 

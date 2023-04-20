@@ -31,3 +31,24 @@ main.signup-login {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+nav.navbar {
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 20px 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #348d56;
+    text-align: center;
+}
+
+.product-heading {
+    text-align: center;
+    color: white;
+}
+
+.nav-link:hover {
+    color:#348d56;
+}
