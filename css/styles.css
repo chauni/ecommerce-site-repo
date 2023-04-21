@@ -60,3 +60,16 @@ nav.navbar {
 #more1 {
     display: none;
 }
+
+.sub-hdr {
+    filter: drop-shadow(0 0 0.09rem rgb(126, 126, 126));
+}
+
+.imgshadow {
+    filter: drop-shadow(0 0 0.09rem rgb(126, 126, 126));
+}
+
+.top-picks {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
