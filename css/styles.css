@@ -65,7 +65,7 @@ nav.navbar {
     filter: drop-shadow(0 0 0.09rem rgb(126, 126, 126));
 }
 
-.imgshadow {
+.img-fluid {
     filter: drop-shadow(0 0 0.09rem rgb(126, 126, 126));
 }
 
